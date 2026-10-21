@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pypa/cibuildwheel@v3
+      - uses: pypa/cibuildwheel@v3.4
         env:
           CIBW_PROJECT_REQUIRES_PYTHON: ">=3.10"
           CIBW_SKIP: "*t-*"
